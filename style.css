@@ -10,7 +10,7 @@ input{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-button{
+#btn{
     width:86%;
     background-color: #3f37ddf5;
     height: 45px;
@@ -19,4 +19,26 @@ button{
     color:white;
     border:none;
     font-size: large;
+}
+
+/* profile */
+.imgg{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.profile-container{
+    background-color: #f8fafc;
+    margin-inline: 35vw;
+    margin-top: 10vh;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+#logout-btn{
+    width: 80%;
+    padding: 15px;
+    background-color: #3f37ddf5;
+    font-size: larger;
+    color: white;
 }
